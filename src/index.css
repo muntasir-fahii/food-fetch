@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Stalinist+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,116 +11,89 @@
 
 body {
   margin: 0 auto;
-}
-
-.app {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem 0;
-}
-
-.input input {
-  width: 70%;
-  padding: 15px;
-  text-decoration: none;
-  border: 1px solid #f1662f;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-  width: 80vw;
-  gap: 2rem;
-}
-
-.left {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  gap: 20px;
-  width: 100%;
-}
-
-.right {
-  background-color: rgba(128, 128, 128, 0.186);
-  border-radius: 15px;
-  width: 100%;
-}
-
-.card-item {
+  font-family: "Open Sans", sans-serif;
   display: grid;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 450px;
-  width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
-  overflow: hidden;
+  padding: 3rem 0;
+  background-color: #111618;
 }
 
-.card-text {
+.headline {
+  margin-left: 1rem;
+  color: aliceblue;
+}
+
+.to-do {
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  gap: 3px;
+  align-items: center;
+  gap: 2rem;
+  width: 25rem;
+  height: 35rem;
+  background-color: #21242b;
+  border-radius: 10px;
 }
 
-.card-item h3 {
-  color: #f1662f;
-}
-
-.card-item p {
-  text-align: start;
-}
-
-.card-item span {
-  font-weight: 700;
-  text-align: start;
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.btn {
-  background-color: #f1662f;
-  text-decoration: none;
-  color: aliceblue;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 5px;
-  outline: none;
-  width: 50%;
+.task-form {
+  padding: 1rem 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+  width: 70%;
   margin: 0 auto;
 }
 
-.bookmark {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  width: 100%;
-  padding: 1rem 4rem;
-  gap: 5px;
+.input {
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
 }
 
-.bookmark-item {
+.add-btn {
+  background: transparent;
+  text-decoration: none;
+  border: none;
+  background-color: indigo;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 5px;
+}
+
+.tasks {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  width: 70%;
+  padding: 1rem;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 5px;
+  gap: 8px;
+  background-color: white;
+  padding: 8px 1rem;
+  width: 100%;
+  border-radius: 5px;
 }
 
-.delete {
-  background-color: #e93221;
+.delete-btn {
+  background: transparent;
   text-decoration: none;
-  color: aliceblue;
-  font-weight: 600;
-  padding: 3px 8px;
+  border: none;
+  background-color: rgb(208, 33, 33);
+  padding: 6px 12px;
+  color: white;
   border-radius: 5px;
-  outline: none;
 }

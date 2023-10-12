@@ -70,7 +70,7 @@ function TodoApp() {
                   onClick={() => handleDeleteTask(index)}
                   className="delete-btn"
                 >
-                  Delet
+                  Delete
                 </button>
               </div>
             ))}
